@@ -22,9 +22,9 @@ namespace ConsoleApplication1
             V2.Draw();
 
 
-            WallsCreator W1 = new WallsCreator(2, 5, Direction.LEFT, 79, 23);
+            WallsCreator W1 = new WallsCreator(2, 10, Direction.LEFT, 79, 23);
             W1.Draw();
-            WallsCreator W2 = new WallsCreator(2, 5, Direction.DOWN, 79, 23);
+            WallsCreator W2 = new WallsCreator(2, 10, Direction.DOWN, 79, 23);
             W2.Draw();
 
             
