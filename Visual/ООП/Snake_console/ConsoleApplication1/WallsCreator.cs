@@ -14,6 +14,11 @@ namespace ConsoleApplication1
         {
                       
         }
+		public WallsCreator(Figure fig)
+        {
+            this.fig = fig;
+			FigMas.Add(this.fig);
+        }
         public WallsCreator(int wide, int pieces, Direction dir, int ViewHight, int ViewWidth)
         {
             Random ran = new Random();
