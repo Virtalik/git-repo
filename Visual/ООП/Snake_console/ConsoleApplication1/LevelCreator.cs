@@ -5,10 +5,10 @@ namespace ConsoleApplication1
 {
     class LevelCreator
     {
-		Level lev;
-        public LevelCreator(Level lev)
+		Level Lev;
+        public LevelCreator(Level Lev)
 		{
-			this.lev = lev;
+			this.Lev = Lev;
 		}
         
 
