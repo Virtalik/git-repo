@@ -10,9 +10,13 @@ namespace ConsoleApplication1
 		{
 			this.lev = lev;
 		}
-        
+		public Level GetLevel()
+		{
+			return lev;
+		}
 
     }
+	
 	enum Level
 	{
 		Easy,
