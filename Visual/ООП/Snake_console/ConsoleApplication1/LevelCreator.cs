@@ -6,7 +6,7 @@ namespace ConsoleApplication1
     class LevelCreator
     {
 		Level lev;
-        LevelCreator(Level lev)
+        public LevelCreator(Level lev)
 		{
 			this.lev = lev;
 		}
